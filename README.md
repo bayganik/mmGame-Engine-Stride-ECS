@@ -24,9 +24,10 @@
 * Every screen is an mmScene: a menu, options, game over, game view.  It has "Enter()", "Exit()" and "Update()" methods and nothing else to wire up.
 * Each scene sets its own window/size.  The "ChangeScene() applies the window/size on entry. So, a 1000 x 700 card game table and a full 3D world can line in the same game.
 
-**mmEcs** - keeps the logic findable (not hiding in the depth of every scene)
+**mmEcs** - Entity component System framework (small & agile)
+* ECS keeps the logic findable (not hiding in the depth of every scene)
 * Entity and its data (component) are your objects in the scene
-* One or many System act on those objects by using the components.
+* One or many Systems act on those objects by using the components.
 * Initiate the EcsWorld, use "CreateEntity()" and then "Add()" it to an existing scene or other entities (Parent/Child).  Finally "DestroyEntity()" removes it with its children from scene.
 * Systems do one job (keep it simple) Camera, Entity movements, Driving, Firing, Card deals, Input.  "AddSystem()" method in a scene will add that paricular logic to a given scene.
 * Each system can "Query<T>()" on one or more components and find all the entities (and their children) that are affected by the logic in that system.
