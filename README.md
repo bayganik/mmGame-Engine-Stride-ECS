@@ -1,19 +1,14 @@
-<div align="center">
- <a>
-   <img align="center" src="./splashscreen.png" >
- </a>
- <h1>mmGame</h1>
+
+<img align="center" src="./splashscreen.png" >
+
 
  One framework for creating powerful window games
 
 ## Overview
 
-**MonoGame** is a simple and powerful .NET framework for creating games for desktop PCs, video game consoles, and mobile devices using the C# programming language. It has been successfully used to create games such as [Streets of Rage 4](https://store.steampowered.com/app/985890/Streets_of_Rage_4/), [Carrion](https://store.steampowered.com/app/953490/CARRION/), [Celeste](https://store.steampowered.com/app/504230/Celeste/), [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/), and [many others](https://monogame.net/showcase/).
-
-
 ## mmEngine (A shared foundation, not a game)
 
-This is a reusable C# library using Stride.Community.Toolkit as its back-end.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else and Stride <Smily Face>
+**mmGame** is a reusable C# library using Stride.Community.Toolkit as its back-end.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else and Stride <Smily Face>
 
 * Code-first, build on Stride but does not use the editor
 * Build the game, not the plumbing. Window, Material, Rendering, Camera, Light, Physics, Fonts and UI are done by the engine. Create a starting menu scene and let the game begins. 
