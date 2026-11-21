@@ -61,7 +61,7 @@ Every menu and dialog in every game is built from the same 4 components.  Button
 
 Check out the awesome many samples.  It took sometime but they all have a lot in common.
 
-|[Backgammon](![game image](backgammon.png))|
+|[Backgammon](<img align="right" src="./backgammon.png" >)|
 |-|-|
 |A true game using an AI to battle you, with 3 levels|
 |[![Battleship]([game image](battleship.png))||
