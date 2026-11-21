@@ -2,7 +2,8 @@
  <a>
    <img align="center" src="./splashscreen.png" >
 </a>
-  One framework for creating powerful window games
+ 
+ One framework for creating powerful window games
 </div>
 
 
