@@ -63,7 +63,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 
 |**Backgammon 2D**|**Battleship 2D**|
 |-|-|
-|![game image](Backgammon.png)|[![game image](Battleship.png)|
+|![game image](Backgammon.png)|![game image](Battleship.png)|
 |A short [sample project](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md) showing you how to make the classic game of pong, with generated soundfx, in 300 lines of code.|3D Ship Game (Descent clone) sample, pulled from the XNA archives and updated for MonoGame|
 |||
 
