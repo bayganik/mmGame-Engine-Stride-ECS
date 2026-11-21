@@ -25,20 +25,20 @@
 * Each scene sets its own window/size.  The "ChangeScene() applies the window/size on entry. So, a 1000 x 700 card game table and a full 3D world can line in the same game.
 
 **mmEcs** - keeps the logic findable (not hiding in the depth of every scene)
--- Entity and its data (component) are your objects in the scene
--- One or many System act on those objects by using the components.
--- Initiate the EcsWorld, use "CreateEntity()" and then "Add()" it to an existing scene or other entities (Parent/Child).  Finally "DestroyEntity()" removes it with its children from scene.
--- Systems do one job (keep it simple) Camera, Entity movements, Driving, Firing, Card deals, Input.  "AddSystem()" method in a scene will add that paricular logic to a given scene.
--- Each system can "Query<T>()" on one or more components and find all the entities (and their children) that are affected by the logic in that system.
+* Entity and its data (component) are your objects in the scene
+* One or many System act on those objects by using the components.
+* Initiate the EcsWorld, use "CreateEntity()" and then "Add()" it to an existing scene or other entities (Parent/Child).  Finally "DestroyEntity()" removes it with its children from scene.
+* Systems do one job (keep it simple) Camera, Entity movements, Driving, Firing, Card deals, Input.  "AddSystem()" method in a scene will add that paricular logic to a given scene.
+* Each system can "Query<T>()" on one or more components and find all the entities (and their children) that are affected by the logic in that system.
 
 ## Games build the scene - Stride renders It
 
 Game code never draws anything.  It creates entities with models and transform component and the Stride compositor draws them through the "Main Camera"
--- FlatQuads is for table games by building flat 3D quads and triangles for card games, tetris, topview battle games, backgammon etc.
--- ModelLoader is for real models like FBX, OBJ, DAE, 3DS and many more at runtime via Assimp - One piece per mesh, textures are resolved besides the file.
--- GameMaterials loads textures and materials once and "TmxMap" load Tiled maps for any game.
+* FlatQuads is for table games by building flat 3D quads and triangles for card games, tetris, topview battle games, backgammon etc.
+* ModelLoader is for real models like FBX, OBJ, DAE, 3DS and many more at runtime via Assimp - One piece per mesh, textures are resolved besides the file.
+* GameMaterials loads textures and materials once and "TmxMap" load Tiled maps for any game.
 
-<img align="center" src="./UI_Kit.png" >
+
 ## UI kit has 4 pieces
 
 Every menu and dialog in every game is built from the same 4 components.  Button, Label, Panel, MessageBox
@@ -47,6 +47,7 @@ Every menu and dialog in every game is built from the same 4 components.  Button
 "ScrollingBackground" good for any scene that wants the background to move and repeat itself.
 "Options Grid" and "Popup" manager are other helpful scenes.
 
+<img align="center" src="./UI_Kit.png" >
 ## Samples
 
 Check out the awesome [game samples](https://github.com/MonoGame/MonoGame.Samples) maintained by the MonoGame team:
