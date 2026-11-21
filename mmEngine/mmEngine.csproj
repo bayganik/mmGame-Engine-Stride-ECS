@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../mmEcs/mmEcs.csproj" />
+    <PackageReference Include="Stride.CommunityToolkit.Bepu" Version="1.0.0-preview.69" />
+    <PackageReference Include="Stride.CommunityToolkit.Skyboxes" Version="1.0.0-preview.69" />
+    <PackageReference Include="Silk.NET.Assimp" Version="2.23.0" />
+  </ItemGroup>
+
+</Project>

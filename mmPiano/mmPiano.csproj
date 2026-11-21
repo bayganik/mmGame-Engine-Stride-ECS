@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StrideGraphicsApi>Direct3D11</StrideGraphicsApi>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stride.CommunityToolkit.Skyboxes" Version="1.0.0-preview.69" />
+    <PackageReference Include="Stride.CommunityToolkit.Bepu" Version="1.0.0-preview.69" />
+    <!-- Pure-C# SoundFont synthesizer; feeds Stride's DynamicSoundSource. -->
+    <PackageReference Include="MeltySynth" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mmEngine\mmEngine.csproj" />
+    <ProjectReference Include="..\mmEcs\mmEcs.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Assets\**\*.sf2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\**\*.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

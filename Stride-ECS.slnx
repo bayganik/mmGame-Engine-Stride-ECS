@@ -1,0 +1,19 @@
+<Solution>
+  <Project Path="mmEngine/mmEngine.csproj" />
+  <Project Path="mmEcs/mmEcs.csproj" />
+  <Project Path="mmCannon3D/stride-smash.csproj" />
+  <Project Path="mmTank3D/mmTank3D.csproj" />
+  <Project Path="mmMapGame2D/mmMapGame2D.csproj" />
+  <Project Path="mmFPS3D/mmFPS3D.csproj" />
+  <Project Path="mmBackgammon/mmBackgammon.csproj" />
+  <Project Path="mmSamples/mmSamples.csproj" />
+  <Project Path="mmSolitaire/mmSolitaire.csproj" />
+  <Project Path="mmTankBattle/mmTankBattle.csproj" />
+  <Project Path="mmTetris/mmTetris.csproj" />
+  <Project Path="mmFbxViewer/mmFbxViewer.csproj" />
+  <Project Path="mmVillage/mmVillage.csproj" />
+  <Project Path="mmBlackJack/mmBlackJack.csproj" />
+  <Project Path="mmCityCenter/mmCityCenter.csproj" />
+  <Project Path="mmBattleship/mmBattleship.csproj" />
+  <Project Path="mmPiano/mmPiano.csproj" />
+</Solution>
