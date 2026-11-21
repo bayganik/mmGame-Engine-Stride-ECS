@@ -1,8 +1,8 @@
 <div align="center">
  <a>
    <img align="center" src="./splashscreen.png" >
-<a/>
-<div/>
+</a>
+</div>
  One framework for creating powerful window games
 
 ## Overview
