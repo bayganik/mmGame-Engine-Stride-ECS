@@ -59,13 +59,13 @@ Every menu and dialog in every game is built from the same 4 components.  Button
 </div>
 
 
-Check out the awesome [game samples](https://github.com/MonoGame/MonoGame.Samples) maintained by the MonoGame team:
+Check out the awesome many samples.  It took sometime but they all have a lot in common.
 
-|[Platformer 2D Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/Platformer2D/README.md)|[NeonShooter](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/NeonShooter/README.md)|
+|[Backgammon](![game image](backgammon.png))|
 |-|-|
-|Supported on all platforms|Supported on all platforms|
-|[![Platformer 2D Sample](https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/refs/heads/3.8.2/Images/Platformer2D-Sample.png)](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/Platformer2D/README.md)|[![NeonShooter Sample](https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/refs/heads/3.8.2/Images/NeonShooter-Sample.png)](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/NeonShooter/README.md)|
-|The [Platformer 2D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/Platformer2D/README.md) sample is a basic 2D platformer pulled from the original XNA samples and upgraded for MonoGame.|[Neon Shooter](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/NeonShooter/README.md) Is a graphically intensive twin-stick shooter with particle effects and save data from Michael Hoffman|
+|A true game using an AI to battle you, with 3 levels|
+|[![Battleship]([game image](battleship.png))||
+|The [Backgammon] is a game of chance and skill.  You vs. Computer|[Battleship] Classic game. You have 4 ships that fire salvos of shots.  Watch the ships take hits and sink|
 |||
 
 |[Auto Pong Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[Ship Game 3D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
