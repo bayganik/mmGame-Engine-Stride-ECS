@@ -61,12 +61,13 @@ Every menu and dialog in every game is built from the same 4 components.  Button
 
 Check out the awesome many samples.  It took sometime but they all have a lot in common.
 
-|[Backgammon](<img align="right" src="./backgammon.png" >)|
+|[Auto Pong Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[Ship Game 3D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
 |-|-|
-|A true game using an AI to battle you, with 3 levels|
-|[![Battleship]([game image](battleship.png))||
-|The [Backgammon] is a game of chance and skill.  You vs. Computer|[Battleship] Classic game. You have 4 ships that fire salvos of shots.  Watch the ships take hits and sink|
+|Supported on all platforms|GL / DX / iOS / Android|
+|[![Auto Pong Sample](https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/refs/heads/3.8.2/Images/AutoPong_1.gif)](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[![ShipGame 3D Sample](https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/refs/heads/3.8.2/Images/ShipGame.png)](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
+|A short [sample project](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md) showing you how to make the classic game of pong, with generated soundfx, in 300 lines of code.|3D Ship Game (Descent clone) sample, pulled from the XNA archives and updated for MonoGame|
 |||
+
 
 |[Auto Pong Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[Ship Game 3D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
 |-|-|
