@@ -48,7 +48,14 @@ Every menu and dialog in every game is built from the same 4 components.  Button
 "Options Grid" and "Popup" manager are other helpful scenes.
 
 <img align="center" src="./UI_Kit.png" >
+
+<div align="center">
+
+
 ## Samples
+ 
+</div>
+
 
 Check out the awesome [game samples](https://github.com/MonoGame/MonoGame.Samples) maintained by the MonoGame team:
 
