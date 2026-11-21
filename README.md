@@ -17,14 +17,14 @@
 * Build the game, not the plumbing. Window, Material, Rendering, Camera, Light, Physics, Fonts and UI are done by the engine. Create a starting menu scene and let the game begins. 
 * Small reusable pieces live in the engine. A model loader, UI buttons, a 2D explosion, etc.
 
-**mmEngineEngine - the shell**
+**mmEngine** - the shell
 -- Owns the Stride "Game" class, the sharedd scene, font and "GameMaterials".  On start it adds the graphics compositor with a clean UI stage, the "Main" perspective camera, a directional light and skybox.  It also registers Bepu physics.
 
-**mmScene - one screen at a time**
+**mmScene** - one screen at a time
 -- Every screen is an mmScene: a menu, options, game over, game view.  It has "Enter()", "Exit()" and "Update()" methods and nothing else to wire up.
 -- Each scene sets its own window/size.  The "ChangeScene() applies the window/size on entry. So, a 1000 x 700 card game table and a full 3D world can line in the same game.
 
-**mmECS - keeps the logic findable (not hiding in the depth of every scene)**
+**mmEcs** - keeps the logic findable (not hiding in the depth of every scene)
 -- Entity and its data (component) are your objects in the scene
 -- One or many System act on those objects by using the components.
 -- Initiate the EcsWorld, use "CreateEntity()" and then "Add()" it to an existing scene or other entities (Parent/Child).  Finally "DestroyEntity()" removes it with its children from scene.
