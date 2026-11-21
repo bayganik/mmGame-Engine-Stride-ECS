@@ -64,7 +64,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**Backgammon 2D**|**Battleship 2D**|
 |-|-|
 |![game image](Backgammon.png)|![game image](Battleship.png)|
-|A short [sample project](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md) showing you how to make the classic game of pong, with generated soundfx, in 300 lines of code.|3D Ship Game (Descent clone) sample, pulled from the XNA archives and updated for MonoGame|
+|A real game you play vs. computer. Computer moves are slow enough to follow. 3 levels of difficulty|You start with a 4 shot salvo. You lose a shot everytime your ship sinks.|
 |||
 
 |[Auto Pong Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[Ship Game 3D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
