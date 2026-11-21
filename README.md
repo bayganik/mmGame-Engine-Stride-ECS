@@ -11,18 +11,18 @@
 
 ## Overview
 
-**mmEngine** is a shared foundation, not a game.  A reusable C# library using Stride.Community.Toolkit as its back-end.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else and Stride <Smily Face>
+**mmEngine** is a shared foundation.  A reusable C# library using Stride.Community.Toolkit as its back-end.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else with Stride as the back-end (Obviously)
 
-* Code-first, build on Stride but does not use the editor
-* Build the game, not the plumbing. Window, Material, Rendering, Camera, Light, Physics, Fonts and UI are done by the engine. Create a starting menu scene and let the game begins. 
+* Code-first, builds on Stride but does not use the editor
+* Build the game, not the plumbing. Window, Material, Models, Meshes, Camera, Light, Physics, Fonts and UI are done by the engine. Create a starting menu scene and let the game begin. 
 * Small reusable pieces live in the engine. A model loader, UI buttons, a 2D explosion, etc.
 
 **mmEngine** - the shell
--- Owns the Stride "Game" class, the sharedd scene, font and "GameMaterials".  On start it adds the graphics compositor with a clean UI stage, the "Main" perspective camera, a directional light and skybox.  It also registers Bepu physics.
+* Owns the Stride "Game" class, the sharedd scene, font and "GameMaterials".  On start it adds the graphics compositor with a clean UI stage, the "Main" perspective camera, a directional light and skybox.  It also registers Bepu physics.
 
 **mmScene** - one screen at a time
--- Every screen is an mmScene: a menu, options, game over, game view.  It has "Enter()", "Exit()" and "Update()" methods and nothing else to wire up.
--- Each scene sets its own window/size.  The "ChangeScene() applies the window/size on entry. So, a 1000 x 700 card game table and a full 3D world can line in the same game.
+* Every screen is an mmScene: a menu, options, game over, game view.  It has "Enter()", "Exit()" and "Update()" methods and nothing else to wire up.
+* Each scene sets its own window/size.  The "ChangeScene() applies the window/size on entry. So, a 1000 x 700 card game table and a full 3D world can line in the same game.
 
 **mmEcs** - keeps the logic findable (not hiding in the depth of every scene)
 -- Entity and its data (component) are your objects in the scene
