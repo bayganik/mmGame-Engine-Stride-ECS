@@ -115,7 +115,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 
 * [Stride](https://github.com/stride3d/stride).
 * The [Stride Community Toolkit](https://github.com/stride3d/stride-community-toolkit).
-* Meltysynth a SoundFont MIDI synthesizer for .NET(https://github.com/sinshu/meltysynth) 
+* [Meltysynth](https://github.com/sinshu/meltysynth) a SoundFont MIDI synthesizer for .NET
 * Entity Component System [ECS](https://en.wikipedia.org/wiki/Entity_component_system)
 ## License
 
