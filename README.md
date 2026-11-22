@@ -64,7 +64,13 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**Backgammon 2D**|**Battleship 2D**|
 |-|-|
 |![game image](Backgammon.png)|![game image](Battleship.png)|
-|A real game you play vs. computer. Computer moves are slow enough to follow. 3 levels of difficulty|You start with a 4 shot salvo. You lose a shot everytime your ship sinks. Missed shots fall into water!|
+|A real game you play vs. computer. Computer moves are slow enough to follow. 3 levels of difficulty|You start with a 4 shot salvo. You lose a shot everytime your ship sinks. Missed shots fall into water! Ships are visually on fire.|
+|||
+
+|**Blackjack 2D**|**Cannon 3D**|
+|-|-|
+|![game image](Blackjack.png)|![game image](cannonsmash.png)|
+|a 2D card game vs. computer.  Allows for splits.| You fire a cannon onto boxes of metal, wood and ice. Hit the gold coin to get extra 2 shots.|
 |||
 
 |[Auto Pong Sample](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/AutoPong/README.md)|[Ship Game 3D](https://github.com/MonoGame/MonoGame.Samples/blob/3.8.2/ShipGame/README.md)|
