@@ -100,7 +100,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 
 |**Tank battle 2D**|**Tetris 2D**|
 |-|-|
-|![game image](TankBattle.png)|![game image](Tetris.png)|
+|![game image](TankBattle.png)|![game image](tetris.png)|
 |Using a TMX map drive your tank thru desert, while enemy tanks fire at you. Watch out for land mines!| Game of Tetris, using the arrow keys.  A few options on how to play the game.|
 |||
 
