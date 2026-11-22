@@ -107,7 +107,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**Village 3D**|**mmEngine & Stride**|
 |-|-|
 |![game image](village.png)|![game image](mmEngine.png)|
-|My favorite example, using a FBX castle with a few homes around it. Go to the top of castle and view it all.  Go to the pier and watch the boat bob in the water!| Using code-first with Stride has been a lot of fun and learning.|
+|My favorite example, using a FBX castle with a few homes around it. Go to the top of castle and view it all.  Go to the pier and watch the boat bob in the water!| mm stands for Mall Man, meaning mine in Persian. Using code-first with Stride has been a lot of fun and learning.|
 |||
 
 
