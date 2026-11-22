@@ -12,7 +12,7 @@
 
 ## Overview
 
-**mmEngine** is a shared foundation.  A reusable C# library using Stride.Community.Toolkit as its back-end.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else with Stride as the back-end (Obviously)
+**mmEngine** is a shared foundation.  A reusable C# library using Stride.Community.Toolkit.  Be warned, I do not use the preset version of 2D/3D scenes that toolkit provides.  A game brings its own rules and scenes - my engine brings everything else with Stride as the back-end (Obviously)
 
 * Code-first, builds on Stride but does not use the editor
 * Build the game, not the plumbing. Window, Material, Models, Meshes, Camera, Light, Physics, Fonts and UI are done by the engine. Create a starting menu scene and let the game begin. 
