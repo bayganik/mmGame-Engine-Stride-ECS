@@ -76,7 +76,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**City Center 3D**|**FPS 3D**|
 |-|-|
 |![game image](Citycenter.png)|![game image](FPS3D.png)|
-|a 3D city with streets and cars, walk around using WASD. Run into a car and you get to drive it around using WASD.| You start in a room. Press <space> to open door! Fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
+|a 3D city with streets and cars, walk around using WASD. Run into a car and you get to drive it around using WASD.| You start in a room. Press space to open door! Fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
 |||
 
 |**FBX file 3D**|**TMX Map 2D**|
@@ -88,8 +88,28 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**MIDI Piano 2D**|**Many Samples 2D/3D**|
 |-|-|
 |![game image](MidiPiano.png)|![game image](Samples.png)|
-|Play piano using Keyboard, and use <shift> as a pedal ! Load a MIDI file to play. This uses MeltySynth package.| Many example on how to use the options available in this engine.|
+|Play piano using Keyboard, and use shift key as a pedal ! Load a MIDI file to play. This uses MeltySynth package.| Many example on how to use the options available in this engine.|
 |||
+
+|**Solitaire 2D**|**Tank 3D**|
+|-|-|
+|![game image](Solitaire.png)|![game image](Tank3D.png)|
+|Play a game of solitaire. program shows you where the cards should go !| Using a 2D sprite image, we make a 3D tank that shots objects in a small areana.|
+|||
+
+
+|**Tank battle 2D**|**Tetris 2D**|
+|-|-|
+|![game image](TankBattle.png)|![game image](Tetris.png)|
+|Using a TMX map drive your tank thru desert, while enemy tanks fire at you. Watch out for land mines!| Game of Tetris, using the arrow keys.  A few options on how to play the game.|
+|||
+
+|**Village 3D**|**mmEngine & Stride**|
+|-|-|
+|![game image](village.png)|![game image](mmEngine.png)|
+|My favorite example, using a FBX castle with a few homes around it. Go to the top of castle and view it all.  Go to the pier and watch the boat bob in the water!| Using code-first with Stride has been a lot of fun and learning.|
+|||
+
 
 ## Support and Contributions
 
@@ -107,41 +127,12 @@ Money goes towards hosting, new hardware and if enough people subscribe a dedica
 
 There are several options on our [Donation Page](https://monogame.net/donate/).
 
-## Source Code
-
-> [!NOTE]
-> For the prerequisites to build from source, please refer to the [Requirements](REQUIREMENTS.md) file.
-
-The full source code is available here from GitHub:
-
-* Clone the source: `git clone --recurse-submodules https://github.com/MonoGame/MonoGame.git` (including resursive submodules).
-* Set up the submodules: `git submodule update --init`
-* Open the solution for your target platform to build the game framework.
-* Open the Tools solution for your development platform to build the pipeline and content tools.
-
-A high level breakdown of the components of the framework:
-
-* The game framework is found in [MonoGame.Framework](MonoGame.Framework).
-* The content pipeline is located in [MonoGame.Framework.Content.Pipeline](MonoGame.Framework.Content.Pipeline).
-* Project templates are in [Templates](Templates).
-* See [Tests](Tests) for the framework unit tests.
-* See [Tools/Tests](Tools/MonoGame.Tools.Tests) for the content pipeline and other tool tests.
-* The [mgcb](Tools/MonoGame.Content.Builder) is a command line tool for content processing.
-* The [mgfxc](Tools/MonoGame.Effect.Compiler) is a command line effect compiler tool.
-* The [mgcb-editor](Tools/MonoGame.Content.Builder.Editor) tool is a GUI frontend for content processing.
-* (Preview) The [Content Builder Project](MonoGame.Framework.Content.Pipeline/Builder/) is a new console app framework for content processing.
 
 ## Helpful Links
 
-* The official website is [monogame.net](http://www.monogame.net).
-* Our [issue tracker](https://github.com/MonoGame/MonoGame/issues) is on GitHub.
-* You can [join the Discord server](https://discord.gg/monogame) and chat live with the core developers and other users.
-* The [official documentation](https://docs.monogame.net/articles/index.html) is on our website.
-* Download [release](https://github.com/MonoGame/MonoGame/releases) and [development](https://github.com/orgs/MonoGame/packages) packages.
-* Release and Preview releases are also available on [NuGet.Org](https://www.nuget.org/packages?q=monogame.framework&includeComputedFrameworks=true&prerel=true&sortby=relevance).
-* Follow [@MonoGameTeam](https://twitter.com/monogameteam) on Twitter/X, [BlueSky](https://bsky.app/profile/monogame.net) and [Mastodon](https://mastodon.cloud/@MonoGame).
-* Get premium content on [Patreon](https://www.patreon.com/bePatron?u=3142012).
+* The Stride Community Toolkit (https://github.com/stride3d/stride-community-toolkit).
+* Meltysynth a SoundFont MIDI synthesizer for .NET(https://github.com/sinshu/meltysynth) 
 
 ## License
 
-The MonoGame project is under the [Microsoft Public License](https://opensource.org/licenses/MS-PL) except for a few portions of the code. See the [LICENSE.txt](LICENSE.txt) file for more details. Third-party libraries used by MonoGame are under their own licenses. Please refer to those libraries for details on the license they use.
+use it all you want.  some of the images and examples were copies from other projects and fit into Stride.
