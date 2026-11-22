@@ -76,7 +76,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**City Center 3D**|**FPS 3D**|
 |-|-|
 |![game image](Citycenter.png)|![game image](FPS3D.png)|
-|a 3D city with streets and cars, walk around using WASD. Run into a car and you get to drive it around using WASD.| You start in a room. Press space to open door! Fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
+|a 3D city with streets and cars, walk around using WASD. Run into a car and you get to drive it around using WASD.| You start in a room. Press space to open door! Use left mouse button to fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
 |||
 
 |**FBX file 3D**|**TMX Map 2D**|
@@ -111,28 +111,12 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |||
 
 
-## Support and Contributions
-
-If you think you have found a bug or have a feature request, use our [issue tracker](https://github.com/MonoGame/MonoGame/issues). Before opening a new issue, please search to see if your problem has already been reported. Try to be as detailed as possible in your issue reports.
-
-If you need help using MonoGame or have other questions we suggest you post on [GitHub discussions](https://github.com/MonoGame/MonoGame/discussions) page or [Discord server](https://discord.gg/monogame). Please do not use the issue tracker for personal support requests.
-
-If you are interested in contributing fixes or features to MonoGame, please read our [contributors guide](CONTRIBUTING.md) first.
-
-### Subscription
-
-If you would like to help the project by supporting us financially, consider supporting us via a subscription for the price of a monthly coffee.
-
-Money goes towards hosting, new hardware and if enough people subscribe a dedicated developer.
-
-There are several options on our [Donation Page](https://monogame.net/donate/).
-
-
 ## Helpful Links
 
-* The Stride Community Toolkit (https://github.com/stride3d/stride-community-toolkit).
+* [Stride](https://github.com/stride3d/stride).
+* The [Stride Community Toolkit](https://github.com/stride3d/stride-community-toolkit).
 * Meltysynth a SoundFont MIDI synthesizer for .NET(https://github.com/sinshu/meltysynth) 
-
+* Entity Component System [ECS](https://en.wikipedia.org/wiki/Entity_component_system)
 ## License
 
-use it all you want.  some of the images and examples were copies from other projects and fit into Stride.
+use it all you want.  some of the images and examples were copied from other projects and fit into Stride.
