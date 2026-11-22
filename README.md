@@ -19,7 +19,7 @@
 * Small reusable pieces live in the engine. A model loader, UI buttons, a 2D explosion, etc.
 
 **mmEngine** - the shell
-* Owns the Stride "Game" class, the sharedd scene, font and "GameMaterials".  On start it adds the graphics compositor with a clean UI stage, the "Main" perspective camera, a directional light and skybox.  It also registers Bepu physics.
+* Owns the Stride "Game" class, the shared scene, font and "GameMaterials".  On start it adds the graphics compositor with a clean UI stage, the "Main" perspective camera, a directional light and skybox.  It also registers Bepu physics.
 
 **mmScene** - one screen at a time
 * Every screen is an mmScene: a menu, options, game over, game view.  It has "Enter()", "Exit()" and "Update()" methods and nothing else to wire up.
