@@ -116,7 +116,7 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 * [Stride](https://github.com/stride3d/stride).
 * The [Stride Community Toolkit](https://github.com/stride3d/stride-community-toolkit).
 * [BepuPhysics](https://github.com/bepu/bepuphysics2) 3D physics package.
-* [Silk.Net](https://github.com/dotnet/Silk.NET)Assimp to read model files
+* [Silk.Net](https://github.com/dotnet/Silk.NET) Assimp to read model files
 * [Meltysynth](https://github.com/sinshu/meltysynth) a SoundFont MIDI synthesizer for .NET
 * Entity Component System [ECS](https://en.wikipedia.org/wiki/Entity_component_system)
 ## License
