@@ -76,9 +76,14 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |**City Center 3D**|**FPS 3D**|
 |-|-|
 |![game image](Citycenter.png)|![game image](FPS3D.png)|
-|a 3D city with streets and cars. Run into a car and you get to drive it around using WASD.| You start in a room. Press <space> to open door! Fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
+|a 3D city with streets and cars, walk around using WASD. Run into a car and you get to drive it around using WASD.| You start in a room. Press <space> to open door! Fire on the rocks & red targets. WASD moves you around. Go up stairs and see the entire areana|
 |||
 
+|**FBX file 3D**|**TMX Map 2D**|
+|-|-|
+|![game image](fbxviewer.png)|![game image](TmxMap.png)|
+|Move your FBX models into the Asset folder, this program will display it as a menu to look at the file.| Example reads a TMX file made used Tiled software. Places a tank and its turret to move around.|
+|||
 ## Support and Contributions
 
 If you think you have found a bug or have a feature request, use our [issue tracker](https://github.com/MonoGame/MonoGame/issues). Before opening a new issue, please search to see if your problem has already been reported. Try to be as detailed as possible in your issue reports.
