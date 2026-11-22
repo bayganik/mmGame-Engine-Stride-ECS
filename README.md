@@ -84,6 +84,13 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 |![game image](fbxviewer.png)|![game image](TmxMap.png)|
 |Move your FBX models into the Asset folder, this program will display it as a menu to look at the file.| Example reads a TMX file made used Tiled software. Places a tank and its turret to move around.|
 |||
+
+|**MIDI Piano 2D**|**Many Samples 2D/3D**|
+|-|-|
+|![game image](MidiPiano.png)|![game image](Samples.png)|
+|Play piano using Keyboard, and use <shift> as a pedal ! Load a MIDI file to play. This uses MeltySynth package.| Many example on how to use the options available in this engine.|
+|||
+
 ## Support and Contributions
 
 If you think you have found a bug or have a feature request, use our [issue tracker](https://github.com/MonoGame/MonoGame/issues). Before opening a new issue, please search to see if your problem has already been reported. Try to be as detailed as possible in your issue reports.
