@@ -119,6 +119,47 @@ Check out the awesome many samples.  It took sometime but they all have a lot in
 * [Silk.Net](https://github.com/dotnet/Silk.NET) Assimp to read model files
 * [Meltysynth](https://github.com/sinshu/meltysynth) a SoundFont MIDI synthesizer for .NET
 * Entity Component System [ECS](https://en.wikipedia.org/wiki/Entity_component_system)
+
+## Build & run
+Windows 10/11, .NET 10 SDK. Visual Studio 2026 recommended.
+Open Stride-ECS.slnx, pick a game as the startup project, and press F5.
+Each game is its own project and its own exe — mmVillage, mmCityCenter,
+mmPiano, mmBattleship, mmBlackJack, mmSolitaire, mmBackgammon, mmTetris,
+mmTankBattle, mmFPS3D, mmCannon3D, mmFbxViewer, mmSamples, and the rest.
+From a terminal, from the repo root:
+dotnet run --project mmVillage
+Swap mmVillage for any other game folder to run that game. Assets are
+copied beside the exe automatically, so nothing needs installing or
+downloading first.
+The clone is about 100 MB, mostly the piano's 30 MB SoundFont
+(mmPiano/Assets/GeneralUser_GS_v1.471.sf2), which ships in the repo so
+mmPiano makes sound out of the box.
+Licenses
+The code in this repo is MIT licensed (see LICENSE). Third-party assets
+keep their own licenses — the GeneralUser GS SoundFont, the Kenney City Kit
+models, and other borrowed art and examples are covered by the license
+files shipped beside them in the asset folders.
+
 ## License
 
-use it all you want.  some of the images and examples were copied from other projects and fit into Stride.
+MIT License
+
+Copyright (c) 2026 Kamran Baygani
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
