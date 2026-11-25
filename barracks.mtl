@@ -1,0 +1,5 @@
+# Added for the demo: the shipped barracks.obj carries no MTL, so this
+# pairs its single material with the shipped diffuse texture.
+newmtl barracks
+Kd 1 1 1
+map_Kd barracks_diffuse.png
